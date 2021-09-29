@@ -4,8 +4,8 @@ var {
   getData,
   getPreview
 } = require("spotify-url-info");
-const DeezerPublicApi = require('deezer-public-api');
-let deezer = new DeezerPublicApi();
+//const DeezerPublicApi = require('deezer-public-api');
+//let deezer = new DeezerPublicApi();
 module.exports = {
   name: "join",
   category: "MUSIC COMMANDS",
@@ -30,7 +30,6 @@ module.exports = {
     })
    
     //send info msg
-    functions.embedbuilder(client, 5000, message, config.colors.yes, "Joined your Channel", `Play Tracks with: \`-play\``)
-
+    functions.embedbuilder(client, 5000, message, config.colors.yes, "Joined your Channel", `Play Tracks with: <@883576766503997440> play`)
   }
 };
