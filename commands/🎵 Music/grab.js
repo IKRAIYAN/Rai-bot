@@ -1,6 +1,6 @@
-﻿const functions = require("../../functions")
+const functions = require("../../functions")
 const config = require("../../config.json")
-const Canvas = require('canvas');
+//const Canvas = require('canvas');
 const Discord = require("discord.js");
 module.exports = {
     name: "grab",
