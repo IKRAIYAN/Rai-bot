@@ -54,13 +54,13 @@ module.exports = {
                 .setTitle(`Need some Music?? ${message.author.username}`)
                 //.addFields(categories)
                 .addField("🌀 Info - 3", `\`botinfo\` | \`help\` | \`invite\` |`)
-                .addField("🎵 Music - 23", `\`autoplay\` | \`clearqueue\` | \`grab\` | \`join\` | \`jump\` | \`loop\` | \`lyrics\` | \`moveme\` | \`pause\` | \`play\` | \`playskip\` | \`queue\` | \`removetrack\` | \`replay\` | \`resume\` | \`rewind\` | \`search\` | \`seek\` | \`shuffle\` | \`skip\` | \`nowplaying\` | \`stop\` | \`volume\` | `)
+                .addField("🎵 Music - 23", `\`autoplay\` | \`clearqueue\` | \`grab\` | \`join\` | \`disconnect\` | \`jump\` | \`loop\` | \`lyrics\` |  \`pause\` | \`play\` | \`playskip\` | \`queue\` | \`removetrack\` | \`replay\` | \`resume\` | \`rewind\` | \`search\` | \`seek\` | \`shuffle\` | \`skip\` | \`nowplaying\` | \`stop\` | \`volume\` | `)
                 .addField("🎵 Music Filters - 22", `\`8d\` | \`bassboost\` | \`clear\` | \`earrape\` | \`echo\` | \`flanger\` | \`gate\` | \`heavybass\` | \`lightbass\` | \`karaoke\` | \`mcompand\` | \`nightcore\` | \`phaser\` | \`pulsator\` | \`purebass\` | \`reverse\` | \`subboost\` | \`surrounding\` | \`treble\` | \`tremolo\` | \`vaporwave\` | \`vibrato\` | `)
                 .addField('🔗 Links', `
   **[Support Server](https://discord.gg/fanZGVFYmn)** | **[Invite Me](https://discord.com/api/oauth2/authorize?client_id=883576766503997440&permissions=8&scope=bot%20applications.commands)** |
   `, false)
                 .setDescription(
-                    `Use \`${prefix}help\` followed by a command name to get more additional information on a command. For example: \`${prefix}help play\`.`
+                    `Use <@883576766503997440> help followed by a command name to get more additional information on a command. For example: <@883576766503997440> play.`
                 )
                 .setThumbnail(client.user.displayAvatarURL())
                 .setColor("BLUE")
